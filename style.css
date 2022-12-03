@@ -8,28 +8,55 @@
     --delay: .3s;
 }
 
-html, body {
+body {
     margin: 0;
-    height: 100%;
+    padding: 0;
+    min-height: 100vh;
     font-family: var(--font);
+    height: 100%;
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
-}
-
-html {
+    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
     background-image: url('./images/sock.png');
     background-size:cover;
-}
+    opacity: 0;
+    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
+    animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height:100%;
 
-body {
-    background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
+    /*background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
     padding-top:35px;
     padding-bottom:35px;
     height:fit-content;
-    min-height:100%;
+    min-height:100%;*/
 }
-  
+
+#profilePicture, #profilePicture img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#userName {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
 @keyframes gradient {
       0% {
           background-position: 0% 50%;
@@ -42,10 +69,10 @@ body {
       }
 }
 
-:root {
+/*:root {
     --accentColor: #E6E6E6;
     --delay: .3s;
-}
+}*/
 
 .description, .source{
     color:white;
@@ -61,29 +88,8 @@ body {
     margin-top:50px;
 }
 
-.profilePicture, .profilePicture img {
-    position: relative;
-    width: 130px;
-    height: 130px;
-    display: block;
-    margin: 35px auto 20px;
-    border-radius: 50%;
-    -webkit-tap-highlight-color: transparent;
-}
 
-.userName {
-    color: var(--accentColor);
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-}
-
-.links {
+#links {
     max-width: 675px;
     width: auto;
     display: block;
@@ -132,3 +138,5 @@ body {
     color: #000; /* Fallback for older browsers 
     color: rgba(0, 0, 0, 0.5);
 }*/
+
+
