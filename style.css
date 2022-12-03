@@ -38,29 +38,6 @@ body{
     position: relative;
     min-height:100%;*/
 }
-
-.profilePicture, .profilePicture img {
-    position: relative;
-    width: 130px;
-    height: 130px;
-    display: block;
-    margin: 35px auto 20px;
-    border-radius: 50%;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.userName {
-    color: var(--accentColor);
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-}
-
 @keyframes gradient {
       0% {
           background-position: 0% 50%;
@@ -92,6 +69,27 @@ body{
     margin-top:50px;
 }
 
+.profilePicture, .profilePicture img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+.userName {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
 
 .links {
     max-width: 675px;
@@ -118,7 +116,7 @@ body{
     -webkit-tap-highlight-color: transparent;
 }
 
-@media (hover: hover) {
+/*@media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
         color: var(--bgColor);
@@ -128,19 +126,18 @@ body{
 .link:active {
     background-color: var(--accentColor);
     color: var(--bgColor);
-}
-/*@media (hover: hover) {
+}*/
+
+@media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
-        color: #000; /* Fallback for older browsers 
+        color: #000; /* Fallback for older browsers*/
         color: rgba(0, 0, 0, 0.5);
     }
 }
 
 .link:active {
     background-color: var(--accentColor);
-    color: #000; /* Fallback for older browsers 
+    color: #000; /* Fallback for older browsers*/
     color: rgba(0, 0, 0, 0.5);
-}*/
-
-
+}
