@@ -8,13 +8,19 @@
     --delay: .3s;
 }
 
-body {
+html, body{
     margin: 0;
     height: 100%;
     font-family: var(--font);
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
+}
+
+html{
     background-image: url('./images/sock.png');
     background-size:cover;
+}
+
+body{
     background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
     /*background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);*/
     background-size: 400% 400%;
@@ -31,7 +37,6 @@ body {
     background-size: cover;
     position: relative;
     min-height:100%;*/
-
 }
 
 #profilePicture, #profilePicture img {
