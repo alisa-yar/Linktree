@@ -1,2 +1,1 @@
-## Tree
-Linktree free alternative 
+This is a linktree free alternative:)
