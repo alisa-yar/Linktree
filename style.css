@@ -90,7 +90,7 @@ body{
 }
 
 /* Style the links inside the pill navigation menu */
-.pill-nav a {
+/*.pill-nav a {
     display: inline-block;
     color: var(--accentColor);
     border: solid var(--accentColor) 2px;
@@ -99,27 +99,27 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 10px; /*17px*/
+    padding: 10px; /*17px
     text-decoration: none;
     /*padding: 14px;
-    text-decoration: none;*/
+    text-decoration: none;
     font-size: 17px;
     -webkit-tap-highlight-color: transparent;
 }
 
-/* Change the color of links on mouse-over */
+/* Change the color of links on mouse-over 
 .pill-nav a:hover {
     background-color: var(--accentColor);
-    color: #000; /* Fallback for older browsers*/
+    color: #000;
     color: rgba(0, 0, 0, 0.5);
 }
 
-/* Add a color to the active/current link */
+/* Add a color to the active/current link 
 .pill-nav a.active {
     background-color: transparent;
-    color: #000; /* Fallback for older browsers*/
+    color: #000; 
     color: rgba(0, 0, 0, 0.5);
-}
+}*/
 
 .links {
     max-width: 675px;
