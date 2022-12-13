@@ -6,7 +6,7 @@ Github Pages: https://pages.github.com
 Netlify: https://netlify.app
 Both services are free to use
 
-## Demo:
+## Demo
 https://alisa-yar.github.io/
 
 
