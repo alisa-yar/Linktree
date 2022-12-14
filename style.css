@@ -153,6 +153,19 @@ body{
   color: black;
 }
 
+@media screen and (max-width: 900px) {
+ .topNav a {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  display: block; } 
+    
+.topNav {
+  padding-top: 0px;
+  padding-bottom: 0px; }  
+    
+.linktree, .posts {
+  padding: 40px; }
+}
 .description, .source{
     color: white;
     text-align: center;
