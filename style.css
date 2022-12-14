@@ -10,9 +10,6 @@
     --text-secondary-color: #1dadff;
     --text-tertiary-color: #8dd0ff;
     --text-quaternary-color: #bbe2ff;
-}
-
-.dark-theme {
     --navbar-primary-background: #06121e;
     --navbar-border-color: #05121f;
 }
@@ -46,6 +43,7 @@ body{
     position: relative;
     min-height:100%;*/
 }
+
 @keyframes gradient {
       0% {
           background-position: 0% 50%;
@@ -94,17 +92,14 @@ body{
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- background-color: teal;
- color: #fff;
+ background-color: var(--navbar-primary-background);
+ color: #000; /* Fallback for older browsers*/
+ color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-links a {
- color: #fff;
-}
-
-/* LOGO */
-.logo {
- font-size: 32px;
+ color: #000; /* Fallback for older browsers*/
+ color: rgba(0, 0, 0, 0.5);
 }
 
 /* NAVBAR MENU */
@@ -112,11 +107,21 @@ body{
  display: flex;
  gap: 1em;
  font-size: 18px;
-}
+ border: solid var(--accentColor) 2px;
+ border-radius: 10px;
+ font-size: 1rem;
+ text-align: center;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ padding: 10px; /*17px*/
+ text-decoration: none;
+}   
+    
 
 .menu li:hover {
- background-color: #4c9e9e;
- border-radius: 5px;
+ background-color: var(--accentColor);
+ border-radius: 10px;
  transition: 0.3s ease;
 }
 
@@ -124,23 +129,18 @@ body{
  padding: 5px 14px;
 }
 
-/*:root {
-    --accentColor: #E6E6E6;
-    --delay: .3s;
-}*/
-
 .description, .source{
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
     margin: 27px auto;
-    margin-top:10px;
-    width:90%;
+    margin-top: 10px;
+    width: 90%;
     max-width: 500px;
 }
 
 .source{
-    font-size:small;
-    margin-top:50px;
+    font-size: small;
+    margin-top: 50px;
 }
 
 .profilePicture, .profilePicture img {
@@ -220,18 +220,6 @@ body{
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
 }
-
-/*@media (hover: hover) {
-    .link:hover {
-        background-color: var(--accentColor);
-        color: var(--bgColor);
-    }
-}
-
-.link:active {
-    background-color: var(--accentColor);
-    color: var(--bgColor);
-}*/
 
 @media (hover: hover) {
     .link:hover {
