@@ -14,26 +14,20 @@
     
     --navbar-primary-background: #06121e;
     --navbar-border-color: #05121f;
-    
-    --border: rgb(234, 234, 234);
-    --bg-primary: white;
-    --text-primary: rgb(35 35 35);
-    --text-secondary: rgb(31, 155, 240);
 }
 
-html, body{
+html, body {
     margin: 0;
     height: 100%;
     font-family: var(--font);
-    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
 }
 
-html{
+html {
     background-image: url('./images/sky.png');
     background-size:cover;
 }
 
-body{
+body {
     background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
@@ -41,14 +35,6 @@ body{
     padding-bottom:35px;
     height:fit-content;
     min-height:100%;
-  
-    /*opacity: 0;
-    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name 
-    animation-fill-mode: forwards;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height:100%;*/
 }
 
 @keyframes gradient {
@@ -63,116 +49,6 @@ body{
       }
 }
 
-/*.navbar {
-  font-family: 'Roboto', sans-serif;
-  position: relative;
-  list-style-type: none;
-  font-size: 18px;
-  width: 100%;
-  margin: 0;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  background-color: var(--navbar-primary-background);
-  border-bottom: 1px solid var(--navbar-border-color);
-  transition: 0.2s;
-  opacity: 0.97;
-  z-index: 999999999;
-  padding: 0 10px;
-}
-
-.nav-link {
-  float: center;
-}
-
-.nav-link a {
-  display: block;
-  color: var(--text-secondary-color);
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-}*/
-
-/* NAVBAR STYLING STARTS */
-/*.navbar {
- display: flex;
- align-items: center;
- justify-content: space-between;
- padding: 20px;
- background-color: var(--navbar-primary-background);
- color: #000; 
- color: rgba(0, 0, 0, 0.5);
-}
-
-.nav-links a {
- color: #000;
- color: rgba(0, 0, 0, 0.5);
-}
-
-.menu {
- display: flex;
- gap: 1em;
- font-size: 18px;
- border: solid var(--accentColor) 2px;
- border-radius: 10px;
- font-size: 1rem;
- text-align: center;
- margin-left: 10px;
- margin-right: 10px;
- margin-bottom: 10px;
- padding: 10px; 
- text-decoration: none;
-}   
-    
-.menu li:hover {
- background-color: var(--accentColor);
- border-radius: 10px;
- transition: 0.3s ease;
-}
-
-.menu li {
- padding: 5px 14px;
-}*/
-
-/* The navbar container */
-.topNav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Navbar links */
-.topNav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  text-decoration: none;
-}
-
-/* Links - change color on hover */
-.topNav a: hover {
-  background-color: #ddd;
-  color: black;
-}
-
-@media screen and (max-width: 900px) {
- .topNav a {
-  padding-top: .5em;
-  padding-bottom: .5em;
-  display: block; } 
-    
-.topNav {
-  padding-top: 0px;
-  padding-bottom: 0px; }  
-    
-.linktree, .posts {
-  padding: 40px; }
-}
 .description, .source{
     color: white;
     text-align: center;
@@ -208,38 +84,6 @@ body{
     text-decoration: none;
 }
 
-/* Style the links inside the pill navigation menu */
-/*.pill-nav a {
-    display: inline-block;
-    color: var(--accentColor);
-    border: solid var(--accentColor) 2px;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px; /*17px
-    text-decoration: none;
-    /*padding: 14px;
-    text-decoration: none;
-    font-size: 17px;
-    -webkit-tap-highlight-color: transparent;
-}
-
-/* Change the color of links on mouse-over 
-.pill-nav a:hover {
-    background-color: var(--accentColor);
-    color: #000;
-    color: rgba(0, 0, 0, 0.5);
-}
-
-/* Add a color to the active/current link 
-.pill-nav a.active {
-    background-color: transparent;
-    color: #000; 
-    color: rgba(0, 0, 0, 0.5);
-}*/
-
 .links {
     max-width: 675px;
     width: auto;
@@ -261,153 +105,19 @@ body{
     margin-bottom: 10px;
     padding: 10px; /*17px*/
     text-decoration: none;
-    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
 }
 
 @media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
-        color: #000; /* Fallback for older browsers*/
+        color: #000; 
         color: rgba(0, 0, 0, 0.5);
     }
 }
 
 .link:active {
     background-color: var(--accentColor);
-    color: #000; /* Fallback for older browsers*/
+    color: #000; 
     color: rgba(0, 0, 0, 0.5);
 }
-
-body { 
-    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  }
-
-  h1, h2, h4, hr, p { 
-    margin: 0 
-  }
-
-  a { 
-    color: inherit; 
-    text-decoration: inherit; 
-  }
-
-  .tweet-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .tweet-author-image {
-    width: 48px;
-    height: 48px;
-    border-radius: 9999px;
-  }
-
-  .tweet-author-info {
-    margin-left: 1rem;
-  }
-
-  .tweet-author-name {
-    line-height: 1rem;
-    font-weight: 500;
-  }
-
-  .tweet-author-handler {
-    line-height: 1.8rem;
-    color: var(--text-secondary);
-  }
-
-  .tweet-content {
-    margin-top: 1rem;
-  }
-
-  .tweet-content a {
-    color: var(--text-secondary);
-  }
-
-  .tweet-content .emoji {
-    display: inline-block;
-    height: 1.2em;
-    width: 1.2em;
-    margin: 0 0.05em 0 0.1em;
-    vertical-align: -0.1em;
-  }
-
-  .tweet-media {
-    margin-top: 1rem;
-    border: 1px solid var(--border);
-    border-radius: 1rem;
-    overflow: hidden;
-  }
-
-  .tweet-summary-card-text {
-    border-top: 1px solid var(--border);
-    padding: 0.75rem;
-    font-size: 0.95rem;
-    color: var(--subtext-primary);
-  }
-
-  .tweet-summary-card-text span {
-    font-size: 0.9rem;
-  }
-
-  .tweet-summary-card-text h2 {
-    color: var(--text-primary);
-  }
-
-  .tweet-summary {
-    display: flex;
-  }
-
-  .tweet-summary img {
-    width: 130px;
-    height: 130px;
-  }
-
-  .tweet-summary > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-left: 1px solid var(--border);
-    border-top: 0px !important;
-  }
-
-  .tweet-image {
-    width: 100%;
-  }
-
-  .tweet-quoted .tweet {
-    margin-top: 1rem;
-    width: 100%;
-  }
-
-  .tweet {
-    width: 500px;
-    padding: 2rem;
-    color: var(--text-primary);
-    border: 1px solid var(--border);
-    border-radius: 1rem;
-    background: var(--bg-primary);
-  } 
-
-  .tweet-author {
-    display: flex;
-    align-items: center;
-  }
-
-  .tweet-author-title {
-    display: flex;
-    align-items: center;
-  }  
-
-  .tweet-author-verified {
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-left: 0.25rem;
-    color: var(--text-secondary);
-  } 
-
-  .tweet-logo {
-    color: var(--text-secondary);
-  }
