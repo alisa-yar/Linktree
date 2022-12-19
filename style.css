@@ -3,14 +3,14 @@
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
-    --accentColor: #FFF;
+    --accentColor: #FFFFFF;
     --font: 'Karla', sans-serif;
     --delay: .3s;
     
-    --text-primary-color: #3998fe;
-    --text-secondary-color: #1dadff;
-    --text-tertiary-color: #8dd0ff;
-    --text-quaternary-color: #bbe2ff;
+    --text-primary-color: #FFFFFF;
+    --text-secondary-color: #FFFFFF;
+    --text-tertiary-color: #FFFFFF;
+    --text-quaternary-color: #FFFFFF;
     
     --navbar-primary-background: #06121e;
     --navbar-border-color: #05121f;
@@ -31,10 +31,10 @@ body {
     background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
-    padding-top:35px;
-    padding-bottom:35px;
-    height:fit-content;
-    min-height:100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: fit-content;
+    min-height: 100%;
 }
 
 @keyframes gradient {
@@ -50,7 +50,7 @@ body {
 }
 
 .description, .source{
-    color: white;
+    color: var(--accentColor);
     text-align: center;
     margin: 27px auto;
     margin-top: 10px;
@@ -118,6 +118,6 @@ body {
 
 .link:active {
     background-color: var(--accentColor);
-    color: #000; 
-    color: rgba(0, 0, 0, 0.5);
+    /*color: #000; 
+    color: rgba(0, 0, 0, 0.5);*/
 }
