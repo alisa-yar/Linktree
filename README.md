@@ -1,5 +1,5 @@
-# My Website:sparkles:
+# My personal Linktree Page:sparkles:
 
-https://alisa-yar.github.io/
+http://www.alisa.social/
 
 
