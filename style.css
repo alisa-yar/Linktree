@@ -1,38 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
-    /*--bgColor: #223344;
-    --bgColor2: #090a0f;*/
-    --accentColor: #FFFFFF;
+    --textColor: #FFFFFF;
     --font: 'Karla', sans-serif;
-    --delay: .3s;
-    
-    --text-primary-color: #FFFFFF;
-    --text-secondary-color: #FFFFFF;
-    --text-tertiary-color: #FFFFFF;
-    --text-quaternary-color: #FFFFFF;
-    
-    /*--navbar-primary-background: #06121e;
-    --navbar-border-color: #FFFFFF;*/
-}
-
-html, body {
-    margin: 0;
-    height: 100%;
-    font-family: var(--font);
 }
 
 html {
-    background-image: url('./images/sky.png');
+    margin: 0;
+    hight: 100%;
+    
+    background-image: url('/images/sky.png');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: var(--font);
+    color: var(--textColor);
+    scroll-behavior: smooth;
 }
 
 body {
-    background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
-    background-size: 400% 400%;
-    animation: gradient 8s ease infinite;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    margin: 0;
+    padding: 0;
     height: fit-content;
     min-height: 100%;
 }
@@ -50,7 +43,7 @@ body {
 }*/
 
 .description, .source{
-    color: var(--accentColor);
+    color: var(--textColor);
     text-align: center;
     margin: 27px auto;
     margin-top: 10px;
@@ -70,10 +63,12 @@ body {
     display: block;
     margin: 35px auto 20px;
     border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
+    
 }
 
 .userName {
-    color: var(--accentColor);
+    color: var(--textColor);
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.25;
@@ -94,8 +89,8 @@ body {
 .link {
     position: relative;
     background-color: transparent;
-    color: var(--accentColor);
-    border: solid var(--accentColor) 2px;
+    color: var(--textColor);
+    border: solid var(--textColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
@@ -103,21 +98,17 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 10px; /*17px*/
+    padding: 10px; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
 
 @media (hover: hover) {
     .link:hover {
-        background-color: var(--accentColor);
-        /*color: #000; 
-        color: rgba(0, 0, 0, 0.5);*/
+        background-color: var(--textColor);
     }
 }
 
 .link:active {
-    background-color: var(--accentColor);
-    /*color: #000; 
-    color: rgba(0, 0, 0, 0.5);*/
+    background-color: var(--textColor);
 }
