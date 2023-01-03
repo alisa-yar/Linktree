@@ -5,7 +5,6 @@
     --font: 'Karla', sans-serif;
     --coffeeYellow: #FFDD00;
     --coffeeColor: #000000;
-    --coffeeFont: 'Cookie';
 }
 
 html {
@@ -108,7 +107,7 @@ body {
 
 .coffee {
     position: relative;
-    font-family: var(--coffeeFont);
+    font-family: var(--font);
     background-color: var(--coffeeYellow);
     color: var(--coffeeColor);
     border: solid var(--coffeeColor) 2px;
@@ -135,7 +134,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  .link {
+  .link, .coffee {
     width: 100%;
   }
 }
