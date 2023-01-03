@@ -30,18 +30,6 @@ body {
     min-height: 100%;
 }
 
-/*@keyframes gradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-}*/
-
 .description, .source{
     color: var(--textColor);
     text-align: center;
@@ -112,3 +100,15 @@ body {
 .link:active {
     background-color: var(--textColor);
 }
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+
+/*@media (min-width: 576px) {
+  .body {
+    max-width: 540px;
+  }
+}*/
