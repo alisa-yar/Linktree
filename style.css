@@ -4,7 +4,7 @@
     --textColor: #FFFFFF;
     --font: 'Karla', sans-serif;
     --coffeeYellow: #FFDD00;
-    --coffeeColor: #000000;
+    --coffeeText: #000000;
 }
 
 html {
@@ -109,8 +109,8 @@ body {
     position: relative;
     font-family: var(--font);
     background-color: var(--coffeeYellow);
-    color: var(--coffeeColor);
-    border: solid var(--coffeeColor) 2px;
+    color: var(--coffeeText);
+    border: solid var(--coffeeYelow) 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
