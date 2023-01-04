@@ -16,7 +16,6 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-position: relative;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +29,7 @@ body {
     margin: 0;
     padding: 0;
     height: fit-content;
+    min-height: 100%;
 }
 
 .description, .source{
@@ -70,22 +70,10 @@ body {
 }
 
 .links {
-    /*max-width: 675px;
+    max-width: 675px;
     width: auto;
     display: block;
-    margin: 27px auto;*/
-    
-    display: flex;
-    flex-direction: column;
-    jusify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    height: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 27px auto;
 }
 
 .link {
@@ -132,15 +120,3 @@ body {
 .link:active {
     background-color: var(--textColor);
 }
-
-@media (min-width: 768px) {
-  .link, .coffee {
-    width: 100%;
-  }
-}
-
-/*@media (min-width: 576px) {
-  .links {
-    max-width: 675px;
-  }
-}*/
