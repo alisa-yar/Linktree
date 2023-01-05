@@ -44,6 +44,7 @@ body {
 .source {
     color: var(--coffeeYellow);
     background: none;
+    text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
 
