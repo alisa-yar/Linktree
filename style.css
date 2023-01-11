@@ -123,10 +123,6 @@ body {
     background-color: transparent;
 }
 
-.link:focus {
-    outline: none;
-}
-
 @media (hover: hover) {
     .source:hover {
     color: var(--coffeeYellow);
@@ -135,8 +131,4 @@ body {
 
  .source:active {
     background-color: transparent;
-}
-
-.source:focus {
-    outline: none;
 }
