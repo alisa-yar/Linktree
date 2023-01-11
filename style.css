@@ -115,19 +115,28 @@ body {
 
 @media (hover: hover) {
     .link:hover {
-    background-color: transparent;
+    background-color: var(--coffeeYellow);
     }
 }
 
 .link:active {
-    background-color: transparent;
+    background-color: var(--textColor);
+}
+
+.link:focus {
+    outline: none;
 }
 
 @media (hover: hover) {
     .source:hover {
-    background-color: transparent;
+    background-color: var(--coffeeYellow);
     }
 }
+
  .source:active {
-    background-color: transparent;
+    background-color: var(--textColor);
+}
+
+.source:focus {
+    outline: none;
 }
