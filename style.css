@@ -115,7 +115,7 @@ body {
 
 @media (hover: hover) {
     .link:hover {
-    background-color: var(--coffeeYellow);
+    color: var(--coffeeYellow);
     }
 }
 
@@ -129,7 +129,7 @@ body {
 
 @media (hover: hover) {
     .source:hover {
-    background-color: var(--coffeeYellow);
+    color: var(--coffeeYellow);
     }
 }
 
