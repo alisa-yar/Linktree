@@ -128,6 +128,6 @@ body {
         background-color: var(--textColor);
     }
 }
- footer:active {
-    background-color: var(--textColor);
+ .source:active {
+    background-color: transparent;
 }
