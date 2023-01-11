@@ -113,7 +113,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) {
     .link:hover {
     color: var(--coffeeYellow);
     }
@@ -127,7 +127,7 @@ body {
     outline: none;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) {
     .source:hover {
     color: var(--coffeeYellow);
     }
