@@ -115,17 +115,17 @@ body {
 
 @media (hover: hover) {
     .link:hover {
-        background-color: var(--textColor);
+    background-color: transparent;
     }
 }
 
 .link:active {
-    background-color: var(--textColor);
+    background-color: transparent;
 }
 
 @media (hover: hover) {
     .source:hover {
-        background-color: var(--textColor);
+    background-color: transparent;
     }
 }
  .source:active {
