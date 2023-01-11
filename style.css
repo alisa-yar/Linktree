@@ -120,7 +120,7 @@ body {
 }
 
 .link:active {
-    background-color: var(--textColor);
+    background-color: transparent;
 }
 
 .link:focus {
@@ -134,7 +134,7 @@ body {
 }
 
  .source:active {
-    background-color: var(--textColor);
+    background-color: transparent;
 }
 
 .source:focus {
