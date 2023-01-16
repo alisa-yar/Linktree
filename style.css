@@ -119,10 +119,11 @@ body {
 .footer {
     color: var(--textColor);
     text-align: center;
-    margin: 20px auto;
+    margin: 20px;
+    margin-bottom: 20px;
     width: 90%;
     max-width: 500px;
-    margin-bottom: 20px;
+    padding: 5px;
 }
     
 .source {
