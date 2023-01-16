@@ -121,6 +121,8 @@ body {
     margin: 20px auto;
     width: 90%;
     max-width: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
     
 .source {
