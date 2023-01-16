@@ -32,19 +32,12 @@ body {
     min-height: 100%;
 }
 
-.description, footer {
+.description {
     color: var(--textColor);
     text-align: center;
     margin: 20px auto;
     width: 90%;
     max-width: 500px;
-}
-
-.source {
-    color: var(--coffeeYellow);
-    background: none;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
 }
 
 .profilePicture, .profilePicture img {
@@ -122,12 +115,27 @@ body {
     background-color: transparent;
 }
 
+.footer {
+    color: var(--textColor);
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+}
+    
+.source {
+    color: var(--coffeeYellow);
+    background: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+    
 @media (hover: hover) {
     .source:hover {
     color: var(--coffeeYellow);
     }
 }
 
- .source:active {
+.source:active {
     background-color: transparent;
 }
