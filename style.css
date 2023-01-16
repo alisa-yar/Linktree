@@ -119,8 +119,7 @@ body {
 .footer {
     color: var(--textColor);
     text-align: center;
-    margin: 20px;
-    margin-bottom: 20px;
+    padding: 5px;
     width: 90%;
     max-width: 500px;
 }
