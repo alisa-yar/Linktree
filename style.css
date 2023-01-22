@@ -5,7 +5,12 @@
     --font: 'Karla', sans-serif;
     --coffeeYellow: #FFDD00;
     --coffeeText: #000000;
+
+    /*--textColor: #191919;*/
+    --headerFont: 'Poppins', sans-serif, 'arial';
+    --describeFont: 'Roboto', sans-serif, 'arial';
 }
+
 
 html {
     margin: 0;
@@ -19,6 +24,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     font-family: var(--font);
     color: var(--textColor);
@@ -27,18 +33,36 @@ html {
 
 body {
     margin: 0;
-    padding: 5px;
+    padding: 0;
     height: fit-content;
     min-height: 100%;
+    
+    position: center;
+    box-sizing: border-box;
+  
+    color: var(--textColor);
+}
+
+.userName {   
+    color: var(--textColor);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px auto;
 }
 
 .description, .footer {
+    font-family: var(--describeFont);
     color: var(--textColor);
     text-align: center;
     margin: 27px auto;
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 90%;
+    font-weight: 400;
+    font-size: 15px;
+    weight: 90%;
     max-width: 500px;
 }
 
@@ -53,30 +77,20 @@ body {
     
 }
 
-.userName {
-    color: var(--textColor);
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-}
-
 .links {
     max-width: 675px;
-    width: auto;
+    width: 100%;
     display: block;
-    margin: 20px auto;
+    margin: 27px auto;
 }
 
 .link {
     position: relative;
     background-color: transparent;
     color: var(--textColor);
-    border: solid var(--textColor) 2px;
+    border-style: solid; 
+    border-color: var(--textColor);
+    border-width: 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
@@ -94,7 +108,9 @@ body {
     font-family: var(--font);
     background-color: var(--coffeeYellow);
     color: var(--coffeeText);
-    border: solid var(--coffeeYelow) 2px;
+    border-style: solid; 
+    border-color: var(--coffeeYelow);
+    border-width: 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
