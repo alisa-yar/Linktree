@@ -151,6 +151,7 @@ body {
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
+
 .social-icons {
   padding: 0;
   list-style: none;
@@ -166,7 +167,7 @@ body {
 
 .social-icons i {
   color: #fff;
-  position: absolute;
+  position: relative;
   top: 0.95em;
   left: 0.96em;
   transition: all 265ms ease-out;
@@ -185,7 +186,7 @@ body {
   height: 45px;
   border-radius: 100%;
   display: block;
-  background: linear-gradient(45deg, #ff003c, #c648c8);
+  background: transparent;
   transition: all 265ms ease-out;
 }
 
@@ -198,8 +199,8 @@ body {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
-  color: #ff003c;
-  background: -webkit-linear-gradient(45deg, #ff003c, #c648c8);
+  color: var(--textColor);
+  background: var(--textColor);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
@@ -207,7 +208,7 @@ body {
 
 @media (hover: hover) {
     .link:hover {
-    color: var(--coffeeYellow);
+    color: var(--textColor);
     }
 }
 
