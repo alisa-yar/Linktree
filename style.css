@@ -172,6 +172,16 @@ body {
   font-size: 1em;
 }
 
+ul.social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-icons li {
+    display: inline-block;
+}
+
 @media (hover: hover) {
     .social-icons:hover {
     color: var(--textColor);
