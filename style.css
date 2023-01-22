@@ -172,7 +172,10 @@ body {
 
 .social-icons li {
   display: inline-block;
-  margin: 10px auto;
+margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   position: relative;
   font-size: 1rem;
 }
@@ -180,6 +183,8 @@ body {
 .social-icons i {
   color: #FFFFF;
   position: absolute;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px; 
