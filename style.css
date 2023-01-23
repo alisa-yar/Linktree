@@ -161,102 +161,36 @@ body {
     background-color: transparent;
 }
 
-/*.social-icons {
+.icons {
   max-width: 675px;
   width: 100%;
   display: inline-block;
   margin: 27px auto;
-  list-style: none;
 }
 
-.social-icons li {
-  display: inline-block;
-margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.icon {
   position: relative;
-  font-size: 1rem;
-}
-
-.social-icons i {
-  color: #FFFFF;
-  position: absolute;
+  font-family: var(--font);
+  color: var(--textColor);
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px; 
+  display: inline-block;
+  font-size: 1rem;
 }
 
 @media (hover: hover) {
-    .social-icons:hover {
+    .icon:hover {
     color: var(--textColor);
     }
 }
 
-.social-icons:active {
+.icon:active {
     background-color: transparent;
-}*/
-
-/*.social-container {
-    width: 400px;
-    margin: 40vh auto;
-    text-align: center;
-}*/
-
-.social-icons {
-    padding: 0;
-    list-style: none;
-    margin: 1em;
-  
-    li {
-        display: inline-block;
-        margin: 0.15em;
-        position: relative;
-        font-size: 1.2em;
-
-    }
-
-    i {
-        color: #fff;
-        position: absolute;
-        top: 21px;
-        left: 21px;
-        transition: all $timing ease-out;
-    }
-
-    a {
-        display: inline-block;
-      
-        &:before {
-            @include transformScale();
-            content: " ";
-            width: 60px;
-            height: 60px;
-            border-radius: 100%;
-            display: block;
-            background: linear-gradient(45deg, $iconColor, $accent);
-            transition: all $timing ease-out;
-        }
-        
-        &:hover:before {
-            transform: scale(0);
-            transition: all $timing ease-in;
-        }
-        
-        &:hover i {
-            @include transformScale(2.2);
-            color: $iconColor;
-            background: -webkit-linear-gradient(45deg, $iconColor, $accent);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            transition: all $timing ease-in;
-        }
-    }
-  
 }
-    
+       
 .source {
     color: var(--coffeeYellow);
     background: none;
