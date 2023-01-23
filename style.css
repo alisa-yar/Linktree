@@ -31,12 +31,13 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: auuto;
     padding: 0;
     height: fit-content;
     min-height: 100%;
     
     position: center;
+    display: block;
     box-sizing: border-box;
   
     color: var(--textColor);
@@ -47,7 +48,7 @@ body {
   height: fit-content;
   display: block;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between;;
     
   margin-left: 10px;
   margin-right: 10px;
@@ -77,7 +78,7 @@ body {
     margin: 10px auto;
 }
 
-.description, .footer {
+.description {
     font-family: var(--describeFont);
     color: var(--textColor);
     text-align: center;
@@ -191,7 +192,18 @@ body {
 .icon:active {
     background-color: transparent;
 }
-       
+
+.footer {
+  font-family: var(--describeFont);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--textColor);
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 .source {
     color: var(--coffeeYellow);
     background: none;
