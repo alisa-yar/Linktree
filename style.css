@@ -95,8 +95,11 @@ body {
     height: 130px;
     display: block;
     margin: 35px auto 25px;
-    border-radius: 0%;
-    -webkit-tap-highlight-color: transparent;
+   border-radius: 50%;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -o-border-radius: 50%;
+   -webkit-tap-highlight-color: transparent;
 }
 
 .links {
