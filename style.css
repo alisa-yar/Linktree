@@ -16,7 +16,6 @@ html {
     height: 100%;
     
     background-image: url('/images/sky.png');
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: relative;
@@ -31,13 +30,12 @@ html {
 }
 
 body {
-    margin: auuto;
+    margin: 0;
     padding: 0;
     height: fit-content;
     min-height: 100%;
     
     position: center;
-    display: block;
     box-sizing: border-box;
   
     color: var(--textColor);
@@ -95,10 +93,9 @@ body {
     width: 130px;
     height: 130px;
     display: block;
-    margin: 35px auto 20px;
-    border-radius: 50%;
+    margin: 35px auto 25px;
+    border-radius: 0%;
     -webkit-tap-highlight-color: transparent;
-    
 }
 
 .links {
@@ -109,7 +106,7 @@ body {
 }
 
 .link {
-    position: relative;
+        position: relative;
     background-color: transparent;
     color: var(--textColor);
     border-style: solid; 
@@ -160,8 +157,13 @@ body {
 .icons {
   max-width: 675px;
   width: 100%;
-  display: inline-block;
-  margin: 27px auto;
+  display: block;
+  position: center;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: transparent;
+  color: var(--textColor);
+  box-sizing: border-box;
 }
 
 .icon {
@@ -177,6 +179,7 @@ body {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+  margin: 10px auto;
   padding: 10px; 
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
