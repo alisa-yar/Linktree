@@ -119,7 +119,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 10px; 
+    padding: 10px;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -138,8 +138,8 @@ body {
     display: block;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px; 
+    margin: 0 auto;
+    padding: 0; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
