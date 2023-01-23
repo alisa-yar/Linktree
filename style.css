@@ -161,7 +161,8 @@ body {
 .icons {
   max-width: 675px;
   width: 100%;
-  display: block;
+  display: flex;
+  justify-content: center;
   position: center;
   margin: 10px auto;
   padding: 10px;
@@ -171,7 +172,7 @@ body {
 }
 
 .icon {
-  position: flex;
+  position: relative;
   background-color: transparent;
   color: var(--textColor);
   border-style: solid; 
