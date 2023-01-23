@@ -40,14 +40,16 @@ body {
     box-sizing: border-box;
   
     color: var(--textColor);
+    display: flex;
+    justify-content: center;
 }
 
 .card {
   width: fit-content;
   height: fit-content;
-  display: block;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;;
+  justify-content: center;
     
   margin-left: 10px;
   margin-right: 10px;
