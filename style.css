@@ -25,6 +25,7 @@ html {
     justify-content: center;
 
     font-family: var(--describeFont);
+    font-weight: 400;
     color: var(--textColor);
     scroll-behavior: smooth;
 }
