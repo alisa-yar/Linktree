@@ -167,7 +167,7 @@ body {
 }
 
 .icon {
-  position: center;
+  position: flex;
   background-color: transparent;
   color: var(--textColor);
   border-style: solid; 
