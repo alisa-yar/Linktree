@@ -24,7 +24,7 @@ html {
     align-items: center;
     justify-content: center;
 
-    font-family: var(--font);
+    font-family: var(--describeFont);
     color: var(--textColor);
     scroll-behavior: smooth;
 }
