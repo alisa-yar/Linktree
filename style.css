@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@400;600&display=swap');
 
-
 :root {
     --textColor: #FFFFFF;
     --font: 'Poppins', sans-serif;
@@ -23,10 +22,8 @@ html {
     background-attachment: fixed;
     background-position: relative;
    
-
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-
 
     font-family: var(--font);
     font-weight: 400;
@@ -100,11 +97,11 @@ body {
     height: 130px;
     display: block;
     margin: 35px auto 25px;
-   border-radius: 50%;
-   -moz-border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -o-border-radius: 50%;
-   -webkit-tap-highlight-color: transparent;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .links {
