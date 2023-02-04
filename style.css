@@ -18,6 +18,7 @@ html {
     height: 100%;
     
     background-image: url('/images/bg.png');
+    background-color: #4B25D7;
     background-size: cover;
     background-attachment: fixed;
     background-position: relative;
