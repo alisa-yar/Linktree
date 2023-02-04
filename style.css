@@ -50,7 +50,6 @@ body {
     box-sizing: border-box;
   
     font-family: var(--describeFont);
-    font-weight: 400;
     color: var(--textColor);
 }
 
@@ -117,6 +116,7 @@ body {
     width: 100%;
     display: block;
     margin: 27px auto;
+    font-weight: 400;
 }
 
 .link {
