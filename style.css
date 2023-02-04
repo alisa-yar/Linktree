@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@400;600&display=swap');
+
 
 :root {
     --textColor: #FFFFFF;
-    --fontTwo: 'Karla', sans-serif;
-    --font: 'Roboto', sans-serif, 'arial';
+    --font: 'Poppins', sans-serif;
+    --coffeeFont: 'Cookie', cursive;
     --coffeeYellow: #FFDD00;
     --coffeeText: #000000;
-
-    --headerFont: 'Poppins', sans-serif, 'arial';
-    --describeFont: 'Roboto', sans-serif, 'arial';
 }
 
 * {
@@ -30,7 +28,7 @@ html {
     -webkit-font-smoothing: antialiased;
 
 
-    font-family: var(--describeFont);
+    font-family: var(--font);
     font-weight: 400;
     color: var(--textColor);
     scroll-behavior: smooth;
@@ -49,7 +47,6 @@ body {
     position: center;
     box-sizing: border-box;
   
-    font-family: var(--describeFont);
     color: var(--textColor);
 }
 
@@ -82,13 +79,11 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-family: var(--headerFont);
     font-weight: 600;
     margin: 10px auto;
 }
 
 .description {
-    font-family: var(--describeFont);
     color: var(--textColor);
     text-align: center;
     margin: 27px auto;
@@ -139,7 +134,7 @@ body {
 
 .coffee {
     position: relative;
-    font-family: 'Cookie', cursive;
+    font-family: var(--coffeeFont);
     background-color: var(--coffeeYellow);
     text-color: var(--coffeeText);
     border-style: solid; 
