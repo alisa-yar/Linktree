@@ -185,6 +185,7 @@ body {
   justify-content: center;
   position: center;
   margin: 10px auto;
+  margin-bottom: 5px;
   padding: 10px;
   background-color: transparent;
   color: var(--textColor);
