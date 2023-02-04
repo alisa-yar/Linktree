@@ -2,7 +2,8 @@
 
 :root {
     --textColor: #FFFFFF;
-    --font: 'Karla', sans-serif;
+    --fontTwo: 'Karla', sans-serif;
+    --font: 'Roboto', sans-serif, 'arial';
     --coffeeYellow: #FFDD00;
     --coffeeText: #000000;
 
@@ -48,6 +49,8 @@ body {
     position: center;
     box-sizing: border-box;
   
+    font-family: var(--describeFont);
+    font-weight: 400;
     color: var(--textColor);
 }
 
@@ -82,7 +85,6 @@ body {
     text-decoration: none;
     font-family: var(--headerFont);
     font-weight: 600;
-    font-size: 20px;
     margin: 10px auto;
 }
 
@@ -93,7 +95,6 @@ body {
     margin: 27px auto;
     margin-top: 10px;
     font-weight: 400;
-    font-size: 15px;
     weight: 90%;
     max-width: 500px;
 }
@@ -126,7 +127,6 @@ body {
     border-color: var(--textColor);
     border-width: 2px;
     border-radius: 10px;
-    font-size: 1rem;
     text-align: center;
     display: block;
     margin-left: 10px;
@@ -139,7 +139,7 @@ body {
 
 .coffee {
     position: relative;
-    font-family: var(--font);
+    font-family: Cookie;
     background-color: var(--coffeeYellow);
     text-color: var(--coffeeText);
     border-style: solid; 
@@ -147,7 +147,6 @@ body {
     color: var(--coffeeText);
     border-width: 2px;
     border-radius: 10px;
-    font-size: 1rem;
     text-align: center;
     display: block;
     margin-left: 10px;
