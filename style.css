@@ -162,6 +162,16 @@ body {
     background-color: transparent;
 }
 
+@media (hover: hover) {
+    .coffee:hover {
+    color: var(--textColor);
+    }
+}
+
+.coffee:active {
+    background-color: transparent;
+}
+
 .icons {
   max-width: 675px;
   width: 100%;
