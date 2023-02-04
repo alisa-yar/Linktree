@@ -135,6 +135,7 @@ body {
 .coffee {
     position: relative;
     font-family: var(--coffeeFont);
+    font-size: 24px;
     background-color: var(--coffeeYellow);
     text-color: var(--coffeeText);
     border-style: solid; 
