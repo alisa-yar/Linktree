@@ -185,7 +185,7 @@ body {
   justify-content: center;
   position: center;
   margin: 10px auto;
-  padding: 0;
+  padding: 10px;
   background-color: transparent;
   color: var(--textColor);
   box-sizing: border-box;
