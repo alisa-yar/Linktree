@@ -139,7 +139,7 @@ body {
 
 .coffee {
     position: relative;
-    font-family: 'Cookie';
+    font-family: 'Cookie', cursive;
     background-color: var(--coffeeYellow);
     text-color: var(--coffeeText);
     border-style: solid; 
