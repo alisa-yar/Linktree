@@ -10,6 +10,10 @@
     --describeFont: 'Roboto', sans-serif, 'arial';
 }
 
+* {
+ outline: none;
+ box-sizing: border-box;
+}
 
 html {
     margin: 0;
