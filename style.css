@@ -22,10 +22,7 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-position: relative;
-    
-     display: flex;
-     flex-direction: column;
-    
+   
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 
@@ -41,6 +38,8 @@ body {
     height: fit-content;
     min-height: 100%;
     
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: center;
@@ -177,7 +176,7 @@ body {
 .icons {
   max-width: 675px;
   width: 100%;
-  /*display: flex;*/
+  display: flex;
   justify-content: center;
   position: center;
   margin: 10px auto;
