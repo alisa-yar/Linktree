@@ -142,7 +142,6 @@ body {
     font-family: var(--font);
     background-color: var(--coffeeYellow);
     text-color: var(--coffeeText);
-    color: var(--coffeeYellow);
     border-style: solid; 
     border-color: var(--coffeeYelow);
     border-width: 2px;
