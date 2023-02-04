@@ -185,7 +185,7 @@ body {
   justify-content: center;
   position: center;
   margin: 10px auto;
-  padding: 10px;
+  padding: 0;
   background-color: transparent;
   color: var(--textColor);
   box-sizing: border-box;
@@ -206,7 +206,7 @@ body {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 2px; 
+  padding: 10px; 
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
