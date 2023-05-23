@@ -52,7 +52,7 @@ body {
     max-width: 500px;
 }
 
-.profilePicture img {
+.profile {
     position: relative;
     width: 130px;
     height: 130px;
