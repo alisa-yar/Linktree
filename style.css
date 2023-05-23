@@ -8,12 +8,8 @@
     --coffeeText: #000000;
 }
 
-* {
- outline: none;
- box-sizing: border-box;
-}
-
 html {
+    background-image: url('bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
