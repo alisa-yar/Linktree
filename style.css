@@ -20,7 +20,7 @@ html {
     text-align: center;
 }
 body {
-    margin: 10px; /*auto - center the linktree*/
+    margin: 10px;
 }
 main {
     background-color: rgba(0, 0, 0, 0.3);
@@ -35,7 +35,7 @@ main {
     font-weight: 700; /*bold*/
 }
 #description {
-    margin: 20px auto;
+    margin: 20px;
 }
 a {
     color: var(--textColor);
@@ -47,13 +47,13 @@ a {
     border-radius: 50%; /*round image*/
     display: block;
     height: 130px;
-    margin: 20px auto;
+    margin: auto;
     width: 130px;
 }
 
 /**********SOCIAL**********/
 .social {
-    margin: 15px auto;
+    margin: 15px;
 }
 .social a {
     border-radius: 10px;
