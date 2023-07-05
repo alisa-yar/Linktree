@@ -18,6 +18,7 @@ html {
     font-size: 16px; 
     font-weight: 400;
     text-align: center;
+    justify-content: center;
 }
 body {
     margin: 10px;
@@ -25,7 +26,6 @@ body {
 main {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;  
-    display: block;
     margin: 10px;
     padding: 20px;
     max-width: 500px;   
@@ -67,11 +67,14 @@ a {
 /**********ICONS**********/
 .icons {
     align-items: center; 
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
     width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .icons a {
-    align-items: center;
     margin: 20px;
 }
 
