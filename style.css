@@ -67,14 +67,11 @@ a {
 /**********ICONS**********/
 .icons {
     align-items: center; 
-    display: flex;
     display: inline-block;
-    flex-wrap: nowrap;
     width: 100%;
 }
 .icons a {
     align-items: center;
-    /* font-size: 30px; */
     margin: 20px;
 }
 
