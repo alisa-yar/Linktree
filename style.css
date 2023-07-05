@@ -22,12 +22,13 @@ html {
 body {
     margin: 10px; /*auto - center the linktree*/
 }
-.card {
+main {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;  
-    padding: 20px;   
-    width: auto;
+    display: block;
     margin: 10px;
+    padding: 20px;
+    max-width: 500px;   
 }
 /**********TYPOGRAPHY**********/
 #userName {
