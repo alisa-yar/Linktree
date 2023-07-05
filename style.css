@@ -1,145 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
-    --textColor: #FFFFFF;
-    --font: 'Poppins', sans-serif;
-    --coffeeFont: 'Cookie', cursive;
-    --coffeeYellow: #FFDD00;
-    --coffeeText: #000000;
+    --textColor: white;
 }
 
+/**********BASIC STYLES**********/
 html {
-    background-image: url('/images/bg.jpg');
+    /*FONT:*/   
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+    font-size: 18px; 
+    font-weight: 400;
+    /*BACKGROUND:*/
+    background-image: url('/images/blue-pink.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: var(--font);
-    color: var(--textColor);
+    text-align: center;
 }
-
 body {
-    margin: 10px;
-    position: center;
+    margin: 10px auto; /*auto - center the linktree*/
+}
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px; 
+    max-width: 550px;
+    margin: auto;
+    width: auto;
 }
 
-.card {
-  display: block;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  padding: 12px; 
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+/**********TYPOGRAPHY**********/
+#userName {
+    font-weight: 700; /*bold*/
 }
-
-.userName {   
+#description {
+    margin: 20px auto;
+}
+a {
+    text-decoration: none;
     color: var(--textColor);
-    display: block;
-    text-align: center;
-    font-weight: 600;
-    margin: 10px auto;
 }
 
-.description {
-    color: var(--textColor);
-    text-align: center;
-    margin: 27px auto;
-    margin-top: 10px;
-    font-weight: 400;
-    weight: 90%;
-    max-width: 500px;
-}
-
-.profile {
-    position: relative;
+/**********PROFILE PICTURE**********/
+#profile {
     width: 130px;
     height: 130px;
     display: block;
-    margin: 35px auto 25px;
-    border-radius: 100px;
+    margin: 20px auto;
+    border-radius: 50%; /*round image*/
 }
 
-.links {
-    max-width: 675px;
-    /* width: 100%; */
+/**********SOCIAL**********/
+.social {
+    width: auto;
+    max-width: 500px;
+    margin: 15px auto;
 }
-
-.link {
-    background-color: transparent;
-    color: var(--textColor);
-    border-style: solid; 
-    border-color: var(--textColor);
-    border-width: 2px;
-    border-radius: 12px;
-
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px; 
-    text-decoration: none;
-
-    /*in line links or not*/
-    display: block; 
-    margin-bottom: 10px;
+.social a {
     text-align: center;
-}
+    border: 2px solid var(--textColor);
+    border-radius: 10px;
+    display: block; /*each link takes a whole line*/
+    margin: 10px;
+    padding: 10px; 
+} 
 
-.coffee {
-    font-family: var(--coffeeFont);
-    font-size: 24px;
-    background-color: var(--coffeeYellow);
-    text-color: var(--coffeeText);
-    border-color: var(--coffeeYelow);
-    color: var(--coffeeText);
-}
-
+/**********ICONS**********/
 .icons {
-  max-width: 675px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: center;
-  margin: 10px auto;
-  margin-bottom: 5px;
-  padding: 10px;
-  background-color: transparent;
-  color: var(--textColor);
-  box-sizing: border-box;
+    align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icons a {
+    align-items: center;
+    display: inline;
+    margin: 25px;
+    font-size: 30px;
 }
 
-.icon {
-  position: relative;
-  background-color: transparent;
-  color: var(--textColor);
-  border-style: solid; 
-  border-color: var(--textColor);
-  border-width: 2px;
-  border-radius: 10px;
-  outline: 0;
-  border:0;
-  font-size: 1.5rem;
-  text-align: center;
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px; 
-  text-decoration: none;
+/**********ALGORAND**********/
+#algorand {
+    height: 30px;
+    padding-top: 5px;
 }
 
-/*.footer {
-  font-family: var(--describeFont);
-  font-weight: 400;
-  font-size: 15px;
-  color: var(--textColor);
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+/**********BUY ME A COFFEE**********/
+#coffee {
+    background: #FFDD00;
+    color: black;
+    border: 2px solid #FFDD00;
+    border-radius: 10px;
+    font-family: 'Cookie', cursive;
+    font-size: 24px;
 }
 
-.source {
-    color: var(--coffeeYellow);
-    background: none;
+/**********FOOTER**********/
+footer a {
+    color: #FFDD00;
     text-decoration: none; 
-}*/
+}
