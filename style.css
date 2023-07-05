@@ -22,13 +22,13 @@ html {
 body {
     margin: 10px; /*auto - center the linktree*/
 }
-main {
+.card {
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-    padding: 20px; 
+    border-radius: 20px;  
+    padding: 20px;   
     width: auto;
+    margin: 10px;
 }
-
 /**********TYPOGRAPHY**********/
 #userName {
     font-weight: 700; /*bold*/
