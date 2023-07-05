@@ -73,8 +73,7 @@ a {
     display: flex;
     display: inline-block;
     flex-wrap: wrap;
-    justify-content: center;
-    width: auto;
+    width: 100%;
 }
 .icons a {
     align-items: center;
