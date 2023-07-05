@@ -6,19 +6,17 @@
 
 /**********BASIC STYLES**********/
 html {
-    /*FONT:*/   
-    font-family: 'Poppins', sans-serif;
-    color: var(--textColor);
-    font-size: 18px; 
-    font-weight: 400;
-    /*BACKGROUND:*/
+    align-items: center;
+    background-attachment: fixed;
     background-image: url('/images/blue-pink.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    color: var(--textColor);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; 
+    font-weight: 400;
     text-align: center;
 }
 body {
@@ -27,10 +25,10 @@ body {
 main {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    padding: 20px; 
-    max-width: 550px;
     margin: auto;
+    padding: 20px; 
     width: auto;
+    max-width: 500px;
 }
 
 /**********TYPOGRAPHY**********/
@@ -41,46 +39,47 @@ main {
     margin: 20px auto;
 }
 a {
-    text-decoration: none;
     color: var(--textColor);
+    text-decoration: none;
 }
 
 /**********PROFILE PICTURE**********/
 #profile {
-    width: 130px;
-    height: 130px;
-    display: block;
-    margin: 20px auto;
     border-radius: 50%; /*round image*/
+    display: block;
+    height: 130px;
+    margin: 20px auto;
+    width: 130px;
 }
 
 /**********SOCIAL**********/
 .social {
-    width: auto;
-    max-width: 500px;
     margin: 15px auto;
+    max-width: 500px;
+    width: auto;
 }
 .social a {
-    text-align: center;
-    border: 2px solid var(--textColor);
     border-radius: 10px;
+    border: 2px solid var(--textColor);
     display: block; /*each link takes a whole line*/
     margin: 10px;
     padding: 10px; 
+    text-align: center;
 } 
 
 /**********ICONS**********/
 .icons {
     align-items: center; 
     display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
+    width: auto;
 }
 .icons a {
     align-items: center;
-    display: inline;
-    margin: 25px;
     font-size: 30px;
+    margin: 20px;
 }
 
 /**********ALGORAND**********/
@@ -92,9 +91,9 @@ a {
 /**********BUY ME A COFFEE**********/
 #coffee {
     background: #FFDD00;
-    color: black;
-    border: 2px solid #FFDD00;
     border-radius: 10px;
+    border: 2px solid #FFDD00;
+    color: black;
     font-family: 'Cookie', cursive;
     font-size: 24px;
 }
