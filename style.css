@@ -20,7 +20,7 @@ html {
     text-align: center;
 }
 body {
-    margin: 10px auto; /*auto - center the linktree*/
+    margin: 10px; /*auto - center the linktree*/
 }
 main {
     background-color: rgba(0, 0, 0, 0.3);
