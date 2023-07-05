@@ -27,7 +27,7 @@ main {
     border-radius: 20px;
     margin: auto;
     padding: 20px; 
-    width: auto;
+    width: 100%;
     max-width: 500px;
 }
 
