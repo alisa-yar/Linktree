@@ -6,25 +6,31 @@
 
 /**********BASIC STYLES**********/
 html {
-    align-items: center;
     background-attachment: fixed;
-    background-image: url('/images/blue-pink.svg');
+    background: url('/images/blue-pink.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+body {
     color: var(--textColor);
-    display: flex;
-    flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
     font-size: 16px; 
-    font-weight: 500;
     text-align: center;
+    margin: 10px;
 }
 main {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;  
-    margin: 10px auto;
-    padding: 10px 20px;
+    padding: 20px; 
 }
+
+/**********CARD**********/
+.card {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 /**********TYPOGRAPHY**********/
 #userName {
     font-weight: 800; /*bold*/
@@ -46,27 +52,22 @@ a {
 }
 
 /**********SOCIAL**********/
-.social {
-    margin: 15px auto;
-}
 .social a {
     border-radius: 10px;
     border: 2px solid var(--textColor);
     display: block; /*each link takes a whole line*/
-    margin: 10px auto;
+    margin: 10px;
     padding: 10px; 
-    text-align: center;
 } 
 
 /**********ICONS**********/
 .icons {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     flex-wrap: nowrap;
     justify-content: center;
 }
 .icons a {
-    margin: auto 20px;
+    padding: 10px 20px;
 }
 
 /**********ALGORAND**********/
