@@ -3,5 +3,5 @@ https://linktree.alisa.social/
 
 ---
 
-# Template with instructions (simplet than this one):  
+# Template with instructions (simpler than this one):  
 https://github.com/alisa-yar/linktree-template
