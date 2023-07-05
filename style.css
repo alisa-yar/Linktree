@@ -14,10 +14,10 @@ html {
 body {
     color: var(--textColor);
     font-family: 'Poppins', sans-serif;
-    font-weight: 500; 
     font-size: 16px; 
-    text-align: center;
+    font-weight: 500; 
     margin: 10px;
+    text-align: center;
 }
 main {
     padding: 20px; 
@@ -29,6 +29,9 @@ main {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
 }
 
 /**********TYPOGRAPHY**********/
@@ -89,6 +92,6 @@ a {
 /**********FOOTER**********/
 footer a {
     color: #FFDD00;
-    text-decoration: none; 
     font-weight: 600;
+    text-decoration: none; 
 }
